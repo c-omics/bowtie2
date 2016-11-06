@@ -1,19 +1,19 @@
-# bowtie2-2.2.9
+# bowtie2
 
-bowtie2-2.2.9 license: GPLv3 
+bowtie2 license: GPLv3 
 
 ## Useful Links
 
  * [package web-site](https://github.com/BenLangmead/bowtie2)
- * [container github-site](https://github.com/sglim2/docker-bio)
- * [Docker Hub](https://hub.docker.com/u/sglim2/)
+ * [container github-site](https://github.com/c-omics/bowtie2)
+ * [Docker Hub](https://hub.docker.com/u/comics/)
 
 ## Example Usage
-See the [container github-site](https://github.com/sglim2/docker-bio) for further usage documentation.
+See the [container github-site](https://github.com/c-omics/) for further usage documentation.
 
 To start a container
 ```
-docker run -it sglim2/bowtie2-2.2.9 bash
+docker run -it comics/bowtie2 bash
 ```
 Following the bowtie2 usage example from the official bowtie2 [MANUAL](https://github.com/BenLangmead/bowtie2/blob/master/MANUAL):
 ```
