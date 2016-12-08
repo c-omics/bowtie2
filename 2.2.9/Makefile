@@ -9,7 +9,7 @@ IMAGE = $(REGISTRY)/$(NAME)
 all: build
 
 build:
-	docker pull comics/centos
+	docker pull comics/samtools
 ifeq ($(LATEST), $(TAG))
 	docker build --no-cache --rm -t $(IMAGE):$(TAG) -t $(IMAGE):latest .
 else
