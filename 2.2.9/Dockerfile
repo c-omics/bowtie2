@@ -21,6 +21,7 @@ RUN git clone $GIT ; \
     make -j ; \
     mkdir -p /usr/share/licenses/$APP_NAME-$VERSION ; \
     cp LICENSE /usr/share/licenses/$APP_NAME-$VERSION/ ; \
+    rm -rf .git ; \
     cd ../ ;  \
     mkdir -p $DEST ; \
     mv $APP_NAME $DEST/$VERSION
