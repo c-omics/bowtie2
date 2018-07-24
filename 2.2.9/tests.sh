@@ -17,5 +17,5 @@ bowtie2 -x lambda_virus -1 $BT2_HOME/example/reads/reads_1.fq -2 $BT2_HOME/examp
 bowtie2 --local -x lambda_virus -U $BT2_HOME/example/reads/longreads.fq -S eg3.sam
 bowtie2 -x $BT2_HOME/example/index/lambda_virus -1 $BT2_HOME/example/reads/reads_1.fq -2 $BT2_HOME/example/reads/reads_2.fq -S eg2.sam
 samtools view -bS eg2.sam > eg2.bam
-samtools sort eg2.bam eg2.sorted
+samtools sort eg2.bam -o eg2.sorted
 ###################
