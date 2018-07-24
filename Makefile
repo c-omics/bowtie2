@@ -1,8 +1,9 @@
 
 
-subdirs = 2.2.9
+subdirs = 2.2.9 \
+          2.3.4.1
 
-LATEST=2.2.9
+LATEST=2.3.4.1
 
 .PHONY: $(subdirs)
 
